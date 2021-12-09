@@ -1,0 +1,27 @@
+{
+    "name": "xiayin1992728/gm-open-sdk-php",
+    "type": "library",
+    "description": "gm-open-sdk-php",
+    "keywords": [
+      "guomian",
+      "gm-sdk"
+    ],
+    "homepage": "https://github.com/xiayin1992728/gm-sdk",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "guomian",
+        "email": "zhangke@xiudtech.com"
+      }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "phpseclib/phpseclib": "^3.0"
+    },
+    "autoload": {
+      "psr-4": {
+          "GM\\": "src/"
+      }
+  },
+    "minimum-stability": "dev"
+}
